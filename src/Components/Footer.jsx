@@ -1,11 +1,7 @@
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-
 
 const Footer = ({ onStartNowClick, handleCareerClick }) => {
   return (<>
@@ -16,11 +12,11 @@ const Footer = ({ onStartNowClick, handleCareerClick }) => {
             <a href="/">
               <img src="assets/img/logoWhite.png" alt="logo" width={250} className="mb-2" />
             </a>
-            <p class="fw-normal fs-5">Behavrior innovates for businesses, society,
+            <p class="fw-normal fs-5 mt-2">Behavrior innovates for businesses, society,
               and individuals, using technology, behavioral
               economics, and gamification to shape
               behaviors for goal achievement</p>
-            <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center justify-content-start">
               <a href="https://www.youtube.com/channel/UCVvhb3WrX9scUUtgyItDHbA" target="_blank" rel="noreferrer"><YouTubeIcon className="socialMediaIcons" /></a>
               <a href="https://twitter.com/behavrior" target="_blank" rel="noreferrer"><XIcon className="socialMediaIcons" /></a>
               <a href="https://www.linkedin.com/company/behavrior" target="_blank" rel="noreferrer"><LinkedInIcon className="socialMediaIcons" /></a>
@@ -39,7 +35,7 @@ const Footer = ({ onStartNowClick, handleCareerClick }) => {
             </ul>
           </div>
 
-          <div class="col-md-2 mb-5 mb-md-3 d-flex align-items-center">
+          <div class="col-md-2 mb-md-3 d-flex align-items-center">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
                 <a href="#heroSection" className="cstmAnchor text-decoration-none text-white fw-medium" onClick={() => onStartNowClick('partnerWithUs')}>Partner With Us</a>

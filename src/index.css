@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto Serif', serif !important;
@@ -162,7 +166,7 @@ body {
 }
 
 .outerTypewriter {
-  height: 40%;
+  height: 200px;
   padding: 0px 40px;
 }
 
@@ -201,7 +205,7 @@ body {
 .formMsg {
   font-size: 11px;
   color: var(--secondaryTextColor);
-  margin: 0;
+  margin: 15px 0px;
   text-align: center;
 }
 
@@ -287,7 +291,24 @@ body {
 
 .carousel-inner {
   border-radius: 40px;
+  /* width: 90% !important; */
+}
+
+.carousel {
   width: 90% !important;
+}
+
+
+.carousel-indicators>button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  background: repeating-radial-gradient(#8b8b8b, transparent 100px);
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -60px !important;
 }
 
 .socialMediaIcons {
@@ -371,6 +392,45 @@ body {
   font-size: 12px;
 }
 
+.txtArea::placeholder {
+  color: rgb(228, 228, 228);
+}
+
+.subHeading {
+  width: 80%;
+  text-align: center;
+}
+
+.minHeight {
+  min-height: 600px;
+}
+
+.margbottom100 {
+  margin-bottom: 100px !important;
+}
+
+.carCardFS {
+  font-size: 1.2rem;
+}
+
+.aboutUsFS {
+  font-size: 1.4rem;
+}
+
+.toolsImage {
+  width: 200px;
+}
+
+.getInTouchIcon {
+  background-color: var(--greenColorSoft);
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: none !important;
+}
+
 @media (max-width:768px) {
   .width95 {
     width: 100%;
@@ -401,7 +461,65 @@ body {
   }
 
   .leftBox {
-    height: 400px;
+    height: 330px;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem !important;
+  }
+
+  .display-4 {
+    font-size: 1.8rem !important;
+  }
+
+  .roundImg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .display-3 {
+    font-size: 2rem !important;
+  }
+
+  .display-6 {
+    font-size: 1.5rem !important;
+  }
+
+  .carousel {
+    width: 100% !important;
+  }
+
+  .carCardFS {
+    font-size: 1.1rem !important;
+  }
+
+  .subHeading {
+    width: 95%;
+  }
+
+  .aboutUsFS {
+    font-size: 1.1rem;
+    line-height: normal;
+  }
+
+  .toolsImage {
+    width: 150px;
+  }
+
+  .minHeight {
+    min-height: 500px;
+  }
+
+  .btn-greenIsColor {
+    display: none !important;
+  }
+
+  .getInTouchIcon {
+    display: block !important;
   }
 
 }

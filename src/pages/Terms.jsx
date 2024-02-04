@@ -7,7 +7,7 @@ const Terms = () => {
       <Header showGetInTouchButton={false} />
       <section id="termsSection">
         <div className="container col-xxl-12 px-4 py-md-5">
-          <div className='mb-4'>
+          <div className='margbottom100'>
             <h1 className='text-center'>Terms of Service for Behavrior
             </h1>
             <h2 className='text-center'>(Wowrior Innovations PVT LTD)</h2>
