@@ -6,7 +6,7 @@ const Privacy = () => {
     <Header showGetInTouchButton={false} />
     <section id="privacySection">
       <div className="container col-xxl-12 px-4 py-md-5">
-        <div className='mb-4'>
+        <div className='margbottom100'>
           <h1 className='text-center'>Privacy Policy for Behavrior</h1>
           <h2 className='text-center'>(Wowrior Innovations PVT LTD)</h2>
         </div>
